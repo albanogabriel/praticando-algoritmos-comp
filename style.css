@@ -1,0 +1,47 @@
+*{
+    font-family: sans-serif;
+}
+
+p {
+    line-height: 30px;
+}
+
+.square-container {
+    display: flex;
+    margin: 0 auto;
+}
+
+#square {
+    font-weight: bold;
+    border: 4px yellow;
+    border-style: dotted;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 180px;
+    background-color: grey;
+    color: white;
+}
+
+#line {
+    margin-left: 8px;
+    width: 3px;
+    background-color: grey;
+}
+
+#l-value {
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+    color: grey;
+}
+
+.answer-01-insert{
+    /* display: flex; */
+    align-items: center;
+}
+
+.answer-01-insert p {
+    margin-right: 16px;
+}

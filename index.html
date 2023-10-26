@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livro Algoritmos</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <div>
+        <h3> 01 - Algoritmo para calcular área e perímetro</h3>
+        <p>
+            Um quadrado é uma figura geométrica com quatro lados de mesmo compri- mento (L) e quatro ângulos retos. Elabore um algoritmo para calcular a área e o perímetro de um quadrado. Observando a figura a seguir, a área é dada pela superfície (preenchimento entre o pontilhado), e o perímetro é a medida do contorno do objeto, a soma dos quatro lados (pontilhado).
+        </p>
+        <ul>
+            <li>
+                Objetivo do algoritmo: calcular o perímetro e a área de um quadrado.
+            </li>
+            <li>
+                Entrada: para calcular o perímetro e a área, precisamos saber qual o com- primento do lado do quadrado, ou seja, temos que saber o valor de L.
+            </li>
+            <li>
+                Processamento:cálculodoperímetroedaárea.Operímetro(P) é a soma dos quatro lados, pode ser representado por P = 4 * L. A área (A) é dada por A = L * L.
+            </li>
+            <li>
+                Saída: informar o valor do perímetro (P) e o valor da área (A).
+            </li>
+        </ul>
+        <div class="square-container">
+            <div id="square">
+                Quadrado
+            </div>
+            <div id="line"></div>
+            <div id="l-value">L</div>
+        </div>
+        <div class="answer-01">
+            <div class="answer-01-insert">
+                <p>
+                    Insira um valor para L
+                </p>
+                <div>
+                    <input id="square-input" type="text">
+                    <button id="square-button" type="button">enter</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="answers-02">
+        <h3>
+            02 - Algoritmo INSS
+        </h3>
+        <p>
+            Elaborar um algoritmo que apresente salário bruto, salário líquido, INSS e FGTS de um fun- cionário, sabendo que o salário bruto é dado pelo seguinte cálculo: (Horas Trabalhadas + Horas Extras*(1+Porcentagem Hora Extra))*- Valor por Hora. A Porcentagem de Hora Extra é 100%. O valor do INSS é dado por Salário Bruto * 9%, e o FGTS é o Salário Bruto * 8%. Por fim, o salário líquido é dado pelo salário bruto – INSS. Ao estruturarmos o problema em ob- jetivo, entrada, processamento e saída, temos:
+        </p>
+        <div>
+            <p>Horas Trabalhadas</p>
+            <input id="horasTrabalhadasInput" type="text">
+            <!-- <button id="horasTrabalhadasButton" type="button">enter</button> -->
+        </div>
+        <div>
+            <p>Horas Extras</p>
+            <input id="horasExtrasInput" type="text">
+            <!-- <button id="horasExtrasButton" type="button">enter</button> -->
+        </div>
+        <div>
+            <p>Valor da Hora</p>
+            <input id="valorHoraInput" type="text">
+        </div>
+        <button id="calcButton" type="button">Calcular</button>
+    </div>
+    <div class="answer-03">
+        <h3>
+            03 - Algoritmo Parímpar
+        </h3>
+        <p>
+            Verifique se o número é par ou ímpar
+        </p>
+        <input type="text">
+        <button type="button">verificar</button>
+    </div>
+    <div class="answer-04">
+        <h3>
+            04 - bora pra disney ?
+        </h3>
+        <p>
+            Verifique se você vai pra disney, cuiabá ou ficar em casa?
+        </p>
+        <p>Quanto de dinheiro você tem guardado?</p>
+        <input type="text">
+        <button type="button">verificar</button>
+    </div>
+    <div class="answer-05">
+        <h3>
+            05 - Qual seu salário em relação aos seus dependentes ?
+        </h3>
+        <div>
+            <p>Quanto dependentes você tem ?</p>
+            <input id="depInput" type="text">
+        </div>
+        <div>
+            <p>Qual é o seu salário ?</p>
+            <input id="salInput" type="text">
+        </div>
+        <button type="button">verificar</button>
+    </div>
+    <div class="answer-06">
+        <h3>
+            06 - Até quando você quer contar ?
+        </h3>
+        <div>
+            <p>Digite o número ?</p>
+            <input id="input06" type="text">
+        </div>
+        <button id="button06" type="button">verificar</button>
+    </div>
+    <div class="answer-07">
+        <h3>
+            07 - Adicione string em um array e depois renderize-as 
+        </h3>
+        <input id="input07" type="text">
+        <button id="button07" type="button">adicione</button></br>
+        <button id="renderize">Renderize os carros</button>
+    </div>
+    <div class="answer-08">
+        <h3>
+            08 - Calcule a média dos alunos
+        </h3>
+        <div>
+            <div>
+                <input placeholder="Aluno 1" id="aluno01" type="text">
+                <input placeholder="Nota 1" id="n01a01" type="text">
+                <input placeholder="Nota 2" id="n02a01" type="text">
+            </div>
+            </br>
+            <button id="salvar01">Salvar</button>
+        </div>
+        <div>
+            <div>
+                <input placeholder="Aluno 1" id="aluno02" type="text">
+                <input placeholder="Nota 1" id="n01a02" type="text">
+                <input placeholder="Nota 2" id="n02a02" type="text">
+            </div>
+            </br>
+            <button id="salvar02">Salvar</button>
+        </div>
+        <button id="calcmedia">Calcular</button>
+    </div>
+    <div class="answer-09">
+        <h3>
+            09 - Adicione pessoas no array e filtre pela letra "C"
+        </h3>
+        <div>
+            <div>
+                <input placeholder="Adicione pessoas" id="input09" type="text">
+                <button id="save09">Salvar</button>
+            </div>
+        </br>   
+        <input placeholder="Pesquisar" id="filter09" type="text">
+        <div class="renderizaLista"></div>
+        </div>
+    </div>
+
+<script src="main.js"></script>
+</body>
+</html>
